@@ -1,0 +1,45 @@
+.parágrafo1{
+    
+    border-top: 2px solid red; /* define a configuração da borda superior */
+    border-right: 2px dashed red; /* define a configuração da borda da lateral direita */
+}
+
+.parágrafo2{
+    border-left: 2px solid yellow;
+    border-bottom: 2px dashed yellow;
+}
+
+.parágrafo3{
+    border-top: 2px solid blue;
+    border-left: 2px solid blue ;
+    border-right:  2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+body{
+    background-color:purple;
+    color: white;
+}
+
+
+        .container {
+            position:relative;
+            width: 600px; /* Ajuste conforme necessário */
+            height: 510px; /* Ajuste conforme necessário */
+           
+        }
+
+        .layer {
+            position: absolute;
+            width: 60%; /* Ocupa 100% do contêiner */
+            height: 60%; /* Ocupa 100% do contêiner */
+        
+        }
+
+        .img1 { top: 0; left: 0; z-index: 8; }
+        .img2 { top: 0px; left: 250px; z-index: 2; }
+        .img3 { top: 250px; left: 0px; z-index: 3; }
+        .img4 { top: 110px; left: 200px; z-index: 7; }
+        .img5 { top: 200px; left: 250px; z-index: 6; }
+        .img6 { top: 300px; left: 350px; z-index: 5; }
+    
